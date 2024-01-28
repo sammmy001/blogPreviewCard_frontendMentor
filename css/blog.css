@@ -62,8 +62,16 @@ h2{
   font-weight:800;
 }
 
+/* tablet view */
+@media only screen and (min-width:700px)
+{
+  .container{
+    width: 40%;
+  }
+}
+
 /*desktop view*/
-@media only screen and (min-width:700px){
+@media only screen and (min-width:1000px){
  .container{
   width: 20%;
  }
