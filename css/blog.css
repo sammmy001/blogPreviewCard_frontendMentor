@@ -1,0 +1,70 @@
+*{
+  margin: none; 
+  padding:none;
+  box-sizing: border-box;
+}
+body{
+  width: 375px;
+  background-color:lightblue;
+  font-family: "Figtree";
+}
+.parent{
+  background-color:  hsl(47, 88%, 63%);
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color:hsl(0, 0%, 100%) ;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 60%;
+  box-shadow: 8px 8px black;
+  margin-bottom: 20px;
+}
+.headImage{
+  width: 100%;
+  border-radius: 10px;
+}
+button{
+  display: block;
+  background-color:hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 2px;
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom:15px ;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 800;
+  font-size:x-small;
+}
+h2{
+ font-weight:800;
+}
+.body{
+  color: hsl(0, 0%, 50%);
+}
+.foot{
+  display: flex;
+  gap: 10px;
+}
+.foot img{
+  margin-top:5px ;
+  width:30px;
+  height: 30px;
+}
+.foot p{
+  font-weight:800;
+}
+
+/*desktop view*/
+@media only screen and (min-width:700px){
+ .container{
+  width: 20%;
+ }
+}
